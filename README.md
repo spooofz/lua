@@ -65,7 +65,7 @@ game.RunService.Heartbeat:Connect(function()
         Char.Humanoid:ChangeState(11)
         
         if (Target.HumanoidRootPart and RootPart ~= nil) then
-            local Tp = TweenService:Create(RootPart, TweenInfo, {CFrame = CFrame.new(Vector3.new(Pos.X, Pos.Y - 10, Pos.Z))})
+            local Tp = TweenService:Create(RootPart, TweenInfo, {CFrame = CFrame.new(Vector3.new(Pos.X, Pos.Y - 15, Pos.Z))})
             
             Tp:Play()
             
